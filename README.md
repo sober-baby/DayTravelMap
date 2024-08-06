@@ -1,3 +1,6 @@
-## Day Travel Map for ECE297
+# Day Travel Map for ECE297
 
-checkout the code in Day-Travel-Map-main\DayTravelMap\Day-Travel-Map-main\mapper\libstreetmap\src and Day-Travel-Map-main\main if interested! 
+Check out the code in the following directories if you're interested:
+
+- [mapper/libstreetmap/src](Day-Travel-Map-main/DayTravelMap/Day-Travel-Map-main/mapper/libstreetmap/src)
+- [main](Day-Travel-Map-main/main)
