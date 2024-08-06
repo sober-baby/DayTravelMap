@@ -1,0 +1,49 @@
+/* Reset All Button Style */
+.btn {
+    all: unset;
+} 
+
+.btn{
+    background-image: none;    /*Remove gradient background. (this should solve your issue)*/
+    background-color: rgb(230, 230, 230);     /*Set button colour to red*/
+    border: 2px solid rgb(87, 87, 87); 
+    /*Set button outline line-weight, line-style, and colour*/
+                               /*Use border: none to remove the outline completely.*/
+    /*color: white;*/              /*Set button text colour*/
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Overriding button style when hovering over the button */
+.btn:hover{
+   /*Add more styles ... */
+   background-color: rgb(199, 199, 199);     /*Set button colour to red*/
+}
+
+/* Reset CloseMap Button Style */
+.closeMapButton {
+    all: unset;
+} 
+
+.closeMapButton{
+    background-image: none;    /*Remove gradient background. (this should solve your issue)*/
+    background-color: rgb(251, 80, 80);     /*Set button colour to red*/
+    /* border: 2px solid rgb(87, 87, 87);  */
+    /*Set button outline line-weight, line-style, and colour*/
+                               /*Use border: none to remove the outline completely.*/
+    color: white;              /*Set button text colour*/
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Overriding button style when hovering over the button */
+.closeMapButton:hover{
+    /*Add more styles ... */
+    background-color: rgb(158, 15, 15);     /*Set button colour to red*/
+ }
